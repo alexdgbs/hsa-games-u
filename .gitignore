@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Directorios de construcción
+dist/
+.build/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+# Carpetas de cobertura
+coverage/

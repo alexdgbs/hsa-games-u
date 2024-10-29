@@ -1,0 +1,17 @@
+{
+  "Botones": {
+    "description": "Auto imported from components/Botones.vue"
+  },
+  "HeroSection": {
+    "description": "Auto imported from components/HeroSection.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Payment": {
+    "description": "Auto imported from components/payment.vue"
+  },
+  "Pong": {
+    "description": "Auto imported from components/Pong.vue"
+  }
+}
