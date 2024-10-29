@@ -22,6 +22,7 @@ export default {
   modules: [],
   build: {},
   target: 'server',
+  ssr: true,
   telemetry: false,
 
   publicRuntimeConfig: {
