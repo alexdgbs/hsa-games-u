@@ -1,0 +1,11 @@
+version: 1
+services:
+  - type: web
+    name: hsa-games
+    env: node
+    plan: free
+    runtime: node
+    nodeVersion: 16
+    buildCommand: yarn build
+    startCommand: yarn start
+    repo: https://github.com/alexdgbs/hsa-games-u
