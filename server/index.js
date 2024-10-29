@@ -274,7 +274,8 @@ app.post('/api/create-payment', (req, res) => {
 });
 
 
-startNuxt().then(({ host, port }) => {
+startNuxt().then(({ host }) => {
+  const port = process.env.PORT || 3000; 
   app.listen(port, host, () => {
     consola.ready({
       message: `Server listening on http://${host}:${port}`,
