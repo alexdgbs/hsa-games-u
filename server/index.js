@@ -28,7 +28,6 @@ app.use(helmet({
   contentSecurityPolicy: false
 }));
 
-
 import config from '../nuxt.config.js';
 config.dev = process.env.NODE_ENV !== 'production';
 
@@ -36,7 +35,6 @@ async function startNuxt() {
   const nuxt = new Nuxt(config);
   const { host, port } = nuxt.options.server;
 
- 
   if (config.dev) {
     const builder = new Builder(nuxt);
     await builder.build();
@@ -44,12 +42,10 @@ async function startNuxt() {
     await nuxt.ready();
   }
 
-  
   app.use(nuxt.render);
   
   return { host, port };
 }
-
 
 async function getAccessToken() {
   const response = await fetch('https://api.sandbox.paypal.com/v1/oauth2/token', {
@@ -64,7 +60,6 @@ async function getAccessToken() {
   const data = await response.json();
   return data.access_token;
 }
-
 
 app.post('/api/cancel-subscription', async (req, res) => {
   const { subscriptionId } = req.body;
@@ -95,7 +90,6 @@ app.post('/api/cancel-subscription', async (req, res) => {
   }
 });
 
-
 app.get('/api/user', async (req, res) => {
   const { email } = req.query;
 
@@ -116,13 +110,11 @@ app.get('/api/user', async (req, res) => {
   }
 });
 
-
 paypal.configure({
   mode: 'sandbox',
   client_id: process.env.PAYPAL_CLIENT_ID,
   client_secret: process.env.PAYPAL_CLIENT_SECRET
 });
-
 
 app.post('/api/subscribe', async (req, res) => {
   const { email } = req.body;
@@ -151,7 +143,6 @@ app.post('/api/subscribe', async (req, res) => {
   }
 });
 
-
 app.post('/api/update-subscription', async (req, res) => {
   const { email, isSubscribed } = req.body;
 
@@ -173,17 +164,14 @@ app.post('/api/update-subscription', async (req, res) => {
   }
 });
 
-
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Conectado a MongoDB'))
   .catch((err) => console.error('Error conectando a MongoDB:', err));
-
 
 app.get('/api/test', (req, res) => {
   console.log('Se ha recibido una solicitud en /api/test');
   res.json({ message: 'API funcionando' });
 });
-
 
 app.post('/api/register', async (req, res) => {
   const { email, password } = req.body;
@@ -202,7 +190,6 @@ app.post('/api/register', async (req, res) => {
     res.status(500).json({ message: 'Error al registrar el usuario' });
   }
 });
-
 
 app.post('/api/login', async (req, res) => {
   const { email, password } = req.body;
@@ -242,7 +229,6 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
-
 app.post('/api/create-payment', (req, res) => {
   const { amount } = req.body;
 
@@ -273,9 +259,7 @@ app.post('/api/create-payment', (req, res) => {
   });
 });
 
-
-startNuxt().then(({ host }) => {
-  const port = process.env.PORT || 3000; 
+startNuxt().then(({ host, port }) => {
   app.listen(port, host, () => {
     consola.ready({
       message: `Server listening on http://${host}:${port}`,
@@ -285,4 +269,5 @@ startNuxt().then(({ host }) => {
 }).catch(error => {
   consola.error('Error al iniciar el servidor:', error);
 });
+
 
