@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: 3000, 
+  },
   head: {
     title: 'hsa-games',
     htmlAttrs: { lang: 'en' },
