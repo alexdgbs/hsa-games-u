@@ -26,7 +26,10 @@ export default {
   telemetry: false,
 
   publicRuntimeConfig: {
-    apiUrl: process.env.NODE_ENV === 'production' ? 'https://hsa-games.com' : 'http://localhost:3000'
+    apiUrl: process.env.NODE_ENV === 'production' 
+      ? process.env.API_URL_PROD 
+      : process.env.API_URL_DEV
   }
+  
 }
 
