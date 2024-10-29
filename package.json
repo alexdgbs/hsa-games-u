@@ -15,7 +15,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxtjs/axios": "^5.13.6",
-    "@vercel/node": "^3.2.23",
     "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
