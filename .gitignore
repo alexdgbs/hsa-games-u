@@ -15,3 +15,5 @@ dist/
 *.tmp
 # Carpetas de cobertura
 coverage/
+
+.env

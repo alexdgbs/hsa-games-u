@@ -3,126 +3,108 @@
     "name": "cancel",
     "path": "/cancel",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\cancel.vue",
-    "chunkName": "pages/cancel",
-    "_name": "_1273457d"
+    "chunkName": "pages/cancel"
   },
   {
     "name": "checkout",
     "path": "/checkout",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\checkout.vue",
-    "chunkName": "pages/checkout",
-    "_name": "_45496f89"
+    "chunkName": "pages/checkout"
   },
   {
     "name": "consolas",
     "path": "/consolas",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\consolas.vue",
-    "chunkName": "pages/consolas",
-    "_name": "_11093ac3"
+    "chunkName": "pages/consolas"
   },
   {
     "name": "emuladores",
     "path": "/emuladores",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\emuladores.vue",
-    "chunkName": "pages/emuladores",
-    "_name": "_526ec914"
+    "chunkName": "pages/emuladores"
   },
   {
     "name": "gamecube",
     "path": "/gamecube",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\gamecube.vue",
-    "chunkName": "pages/gamecube",
-    "_name": "_0c7fde2c"
+    "chunkName": "pages/gamecube"
   },
   {
     "name": "gba",
     "path": "/gba",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\gba.vue",
-    "chunkName": "pages/gba",
-    "_name": "_0a7c9cf3"
+    "chunkName": "pages/gba"
   },
   {
     "name": "inicio",
     "path": "/inicio",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\inicio.vue",
-    "chunkName": "pages/inicio",
-    "_name": "_533d57e8"
+    "chunkName": "pages/inicio"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_2b113ab6"
+    "chunkName": "pages/login"
   },
   {
     "name": "n64",
     "path": "/n64",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\n64.vue",
-    "chunkName": "pages/n64",
-    "_name": "_2f38deb9"
+    "chunkName": "pages/n64"
   },
   {
     "name": "pong",
     "path": "/pong",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\pong.vue",
-    "chunkName": "pages/pong",
-    "_name": "_9637c28a"
+    "chunkName": "pages/pong"
   },
   {
     "name": "precios",
     "path": "/precios",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\precios.vue",
-    "chunkName": "pages/precios",
-    "_name": "_ab239c0c"
+    "chunkName": "pages/precios"
   },
   {
     "name": "ps2",
     "path": "/ps2",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\ps2.vue",
-    "chunkName": "pages/ps2",
-    "_name": "_0100c41c"
+    "chunkName": "pages/ps2"
   },
   {
     "name": "psp",
     "path": "/psp",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\psp.vue",
-    "chunkName": "pages/psp",
-    "_name": "_046a755a"
+    "chunkName": "pages/psp"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\register.vue",
-    "chunkName": "pages/register",
-    "_name": "_ef5f4b34"
+    "chunkName": "pages/register"
   },
   {
     "name": "snes",
     "path": "/snes",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\snes.vue",
-    "chunkName": "pages/snes",
-    "_name": "_ae2232e8"
+    "chunkName": "pages/snes"
   },
   {
     "name": "success",
     "path": "/success",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\success.vue",
-    "chunkName": "pages/success",
-    "_name": "_50aa3510"
+    "chunkName": "pages/success"
   },
   {
     "name": "team",
     "path": "/team",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\team.vue",
-    "chunkName": "pages/team",
-    "_name": "_2d900ea0"
+    "chunkName": "pages/team"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Ale\\\\Desktop\\\\HSA\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_6169979f"
+    "chunkName": "pages/index"
   }
 ]
