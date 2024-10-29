@@ -1,7 +1,4 @@
 export default {
-  server: {
-    port: 3000, 
-  },
   head: {
     title: 'hsa-games',
     htmlAttrs: { lang: 'en' },
@@ -29,7 +26,7 @@ export default {
   telemetry: false,
 
   publicRuntimeConfig: {
-    apiUrl: process.env.NODE_ENV === 'production' ? 'https://hsa-games.com' : 'http://localhost:3001'
+    apiUrl: process.env.NODE_ENV === 'production' ? 'https://hsa-games.com' : 'http://localhost:3000'
   }
 }
 
